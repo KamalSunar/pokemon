@@ -1,0 +1,148 @@
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+  position: relative;
+  box-shadow: 0px 1px 4px rgba($black, 0.3);
+
+  &-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+
+    img {
+      width: 130px;
+      position: absolute;
+      transition: all 300ms ease;
+    }
+  }
+
+  &-body {
+    text-align: center;
+    h6 {
+      margin-bottom: 6px;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 18px;
+      margin-bottom: 25px;
+    }
+
+    &--spec {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &-action {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+
+    &--like {
+      cursor: pointer;
+
+      &:hover path {
+        stroke: $red !important;
+        fill: $red !important;
+      }
+    }
+  }
+
+  &-active path {
+    stroke: $red !important;
+    fill: $red !important;
+  }
+
+  &:hover {
+    .card-img img {
+      transform: scale(1.08);
+    }
+  }
+
+  &-Bug {
+    background-color: rgba($Bug, 0.2);
+  }
+
+  &-Dark {
+    background-color: rgba($Dark, 0.2);
+  }
+
+  &-Dragon {
+    background-color: rgba($Dragon, 0.2);
+  }
+
+  &-Electric {
+    background-color: rgba($Electric, 0.2);
+  }
+
+  &-Fairy {
+    background-color: rgba($Fairy, 0.2);
+  }
+
+  &-Fighting {
+    background-color: rgba($Fighting, 0.2);
+  }
+
+  &-Fire {
+    background-color: rgba($Fire, 0.2);
+  }
+
+  &-Flying {
+    background-color: rgba($Flying, 0.2);
+  }
+
+  &-Ghost {
+    background-color: rgba($Ghost, 0.2);
+  }
+
+  &-Grass {
+    background-color: rgba($Grass, 0.2);
+  }
+
+  &-Ground {
+    background-color: rgba($Ground, 0.2);
+  }
+
+  &-Ice {
+    background-color: rgba($Ice, 0.2);
+  }
+
+  &-Normal {
+    background-color: rgba($Normal, 0.2);
+  }
+
+  &-Poison {
+    background-color: rgba($Poison, 0.2);
+  }
+
+  &-Psychic {
+    background-color: rgba($Psychic, 0.2);
+  }
+
+  &-Rock {
+    background-color: rgba($Rock, 0.2);
+  }
+
+  &-Steel {
+    background-color: rgba($Steel, 0.2);
+  }
+
+  &-Water {
+    background-color: rgba($Water, 0.2);
+  }
+}

@@ -1,0 +1,17 @@
+/* @ts-ignore */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'assets/scss/base/font';
+@import 'assets/scss/base/variables';
+@import 'assets/scss/base/base';
+
+
+@import 'assets/scss/components/banner';
+@import 'assets/scss/components/tab';
+@import 'assets/scss/components/card';
+@import 'assets/scss/components/badge';
+@import 'assets/scss/components/loader';
+@import 'assets/scss/components/button';
+@import 'assets/scss/components/modal';

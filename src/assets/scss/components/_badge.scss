@@ -1,0 +1,80 @@
+.badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: $white;
+
+  &-Bug {
+    background-color: rgba($Bug, 1);
+  }
+
+  &-Dark {
+    background-color: rgba($Dark, 1);
+  }
+
+  &-Dragon {
+    background-color: rgba($Dragon, 1);
+  }
+
+  &-Electric {
+    background-color: rgba($Electric, 1);
+  }
+
+  &-Fairy {
+    background-color: rgba($Fairy, 1);
+  }
+
+  &-Fighting {
+    background-color: rgba($Fighting, 1);
+  }
+
+  &-Fire {
+    background-color: rgba($Fire, 1);
+  }
+
+  &-Flying {
+    background-color: rgba($Flying, 1);
+  }
+
+  &-Ghost {
+    background-color: rgba($Ghost, 1);
+  }
+
+  &-Grass {
+    background-color: rgba($Grass, 1);
+  }
+
+  &-Ground {
+    background-color: rgba($Ground, 1);
+  }
+
+  &-Ice {
+    background-color: rgba($Ice, 1);
+  }
+
+  &-Normal {
+    background-color: rgba($Normal, 1);
+  }
+
+  &-Poison {
+    background-color: rgba($Poison, 1);
+  }
+
+  &-Psychic {
+    background-color: rgba($Psychic, 1);
+  }
+
+  &-Rock {
+    background-color: rgba($Rock, 1);
+  }
+
+  &-Steel {
+    background-color: rgba($Steel, 1);
+  }
+
+  &-Water {
+    background-color: rgba($Water, 1);
+  }
+}
