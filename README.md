@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Pokemon App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created using [PokeAPI](https://pokeapi.co/).
+
+Website URL: (https://pokemon-six-eta.vercel.app/)
+
+![POKEMON]!(public/pokemon.png)
+
+
+**Prerequisites:**
+
+**List the prerequisites required to run the project, such as:**
+
+NodeJS: v14.17.3 (currently using)
+
+Package Manager: Yarn (v1.22.19) / npm
+
+**Dependencies**
+
+React (v.18)
+
+Node (Package Manager)
+
+Typescript (latest)
+
+Redux
+
+Sass
+
+Tailwind Css
+
+If you are using npm
+
+### `npm install`
+
+If you are using Yarn
+
+### `yarn install or yarn`
 
 ## Available Scripts
 
-In the project directory, you can run:
+**Start development server on port 3000.**
+If you are using npm
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you are using Yarn
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `yarn start`
 
-### `npm test`
+##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Build for production:**
+
+If you are using npm
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you are using Yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `yarn build`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##
 
-### `npm run eject`
+**Test for production:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you are using npm
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you are using npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `yarn test`
 
-## Learn More
+Watching Tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run test –watch`
