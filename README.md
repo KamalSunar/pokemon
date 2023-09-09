@@ -4,7 +4,7 @@ This project is created using [PokeAPI](https://pokeapi.co/).
 
 Website URL: (https://pokemon-six-eta.vercel.app/)
 
-![POKEMON]!(public/pokemon.png)
+![POKEMON](public/pokemon.png)
 
 
 **Prerequisites:**
